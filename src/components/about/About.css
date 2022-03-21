@@ -1,0 +1,73 @@
+/* about information section */
+.about {
+  padding: 8px;
+  padding-top: 150px;
+  display: flex;
+}
+.info-txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.about-title {
+  font-size: 52px;
+  font-weight: 600;
+  color: white;
+}
+.name {
+  color: #ff725e;
+  margin-left: 20px;
+  font-weight: 700;
+}
+/* image section */
+.image {
+  width: 100%;
+  height: 100%;
+}
+.about-img {
+  width: 100%;
+  height: auto;
+  float: right;
+}
+/* tools information section */
+.tools {
+  margin-top: 20px;
+}
+.tools-title {
+  border-top: 6px solid #ff725e;
+  width: 180px;
+  margin-bottom: 40px;
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.tools-list {
+  list-style-type: none;
+  display: inline-block;
+}
+.tool {
+  margin: 10px;
+  padding: 4px 8px 4px;
+  border: 1px solid #ff725e;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 4px;
+}
+/* responsive design */
+@media only screen and (max-width: 720px) {
+  .about {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .about-title {
+    font-size: 32px;
+  }
+  .name {
+    margin-left: 5px;
+  }
+  .description,
+  .tool {
+    font-size: 12px;
+  }
+}
