@@ -3,7 +3,7 @@
     "name": "Wordle Discord Bot",
     "description": "I built a wordle bot on Discord. The bot was created with the help of discord and other npm packages. Deployed the bot using Heroku cloud platform.",
     "github": "https://github.com/bereketsega/Not-Wordle-Bot",
-    "demo": "https://github.com/bereketsega/Not-Wordle-Bot",
+    "demo": "https://discord.com/oauth2/authorize?client_id=942634563878940706&permissions=534723947584&scope=bot%20applications.commands",
     "image": "../assets/discordbot.png",
     "tools": ["JavaScript", "npm", "Heroku", "NodeJS"]
   },
