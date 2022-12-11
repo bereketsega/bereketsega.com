@@ -7,8 +7,8 @@ const Contact = () => {
       <a className="cout">
         connect with me
         <br></br>
-        <a href="https://www.linkedin.com/in/bereket-sega-674b51210/" target={"_blank"}>
-          <i>https://www.linkedin.com/in/bereket-sega-674b51210/</i>
+        <a href="https://www.linkedin.com/in/bereketsega/" target={"_blank"}>
+          <i>https://www.linkedin.com/in/bereketsega/</i>
         </a>
         <br></br>
         <a href="https://github.com/bereketsega" target="_blank">
