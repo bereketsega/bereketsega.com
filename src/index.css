@@ -6,7 +6,7 @@ body {
   margin-left: 5%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #2b2f33;
+  background-color: #300a24;
   font-size: 16px;
   font-weight: bold;
 }
@@ -37,13 +37,13 @@ a {
   text-decoration: none;
 }
 i {
-  color: #99aab5;
+  color: #3d5db9;
 }
 i:hover {
-  color: #93b9d2;
+  color: #729fcf;
 }
 .cmd {
-  color: #7baee5;
+  color: #86e033;
 }
 .cout {
   color: #e0e0e0;
