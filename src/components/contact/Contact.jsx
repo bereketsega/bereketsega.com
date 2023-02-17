@@ -23,8 +23,8 @@ const Contact = () => {
       <br></br>
       <div className="cmd">$ whois -u bereket --resume</div>
       <div className="cout">
-        <a href={"../assets/resume.pdf"} target={"_blank"}>
-          <i>resume.pdf</i>
+        <a href={"../assets/Bereket_Sega_Resume.pdf"} target={"_blank"}>
+          <i>bereket_sega_resume.pdf</i>
         </a>
       </div>
     </div>
