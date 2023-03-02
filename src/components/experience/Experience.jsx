@@ -5,7 +5,7 @@ const Experience = () => {
 		<div className='experience'>
 			<div className='cmd'>$ whois -u bereket --experience</div>
 			<div className='cout'>
-				i work as a software developer intern at <a href='https://secured.team' target={'_blank'}><i>secured inc. </i></a>
+				i'm a software developer intern at <a href='https://secured.team' target={'_blank'}><i>secured inc. </i></a>
 				and tutor at <a href='https://www.towson.edu' target={'_blank'}><i>towson university</i></a>.
 			</div>
 		</div>
