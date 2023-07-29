@@ -1,0 +1,86 @@
+.profileImageWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.profileImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid var(--background-gradient-light);
+}
+
+.aboutName {
+    font-family: var(--poppins) !important;
+    font-size: 1.4rem;
+    margin-bottom: 0;
+    font-weight: 700;
+    background: -webkit-linear-gradient(#ffffff, var(--bright-blue));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 0.02rem;
+}
+
+.aboutTitle {
+    font-weight: 500;
+    margin-top: 0px;
+    color: #ffffff;
+}
+
+.aboutLocation,
+.aboutDescription {
+    color: var(--bright-blue-text);
+    font-weight: 500;
+}
+
+.aboutContact {
+    margin-top: 10px;
+    background-color: var(--dark-blue);
+    padding: 6px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border: var(--bright-blue) 1px solid;
+    color: #ffffff !important;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    font-family: var(--poppins) !important;
+}
+
+.aboutContact:hover {
+    background-color: var(--dark-blue-hover);
+}
+
+@media (max-width: 480px) {
+    .profileImageWrapper {
+        margin-right: 10px;
+        margin-bottom: 10px;
+        align-items: flex-start;
+        margin-top: 10px;
+    }
+    .profileImage {
+        width: 100px;
+        height: 100px;
+    }
+    .aboutName {
+        margin-top: 0px;
+        font-size: 1.2rem;
+    }
+    .aboutTitle {
+        font-size: 0.9rem;
+    }
+    .aboutLocation {
+        font-size: 0.8rem;
+    }
+    .aboutDescription {
+        font-size: 0.9rem;
+    }
+    .aboutContact {
+        font-size: 0.8rem;
+    }
+}
