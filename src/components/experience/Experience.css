@@ -1,0 +1,92 @@
+.experienceLeftWrapper {
+    margin-right: 24px;
+}
+.experienceInfoWrapper {
+    margin-top: 10px;
+}
+.experienceDate {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+    font-weight: 600;
+    color: var(--bright-blue-text);
+}
+
+.experienceTextWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.experiencePosition {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background: -webkit-linear-gradient(#ffffff, var(--bright-blue));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.experienceCompany {
+    margin-top: 2px;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.experienceDescription {
+    color: var(--bright-blue-text);
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.companyLogoWrapper {
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.companyLogo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+@media (max-width: 480px) {
+    .experienceLeftWrapper {
+        margin-right: 8px;
+    }
+    .experienceContainer {
+        flex-direction: column;
+        justify-content: left;
+        align-items: left;
+        margin: 0;
+    }
+    .experienceListRow {
+        display: flex;
+        flex-direction: row;
+        max-width: fit-content;
+        flex-wrap: wrap;
+    }
+    .experienceWrapper {
+        margin: 0px 8px;
+        width: max-content;
+    }
+    .experienceListColumn {
+        padding: 0px;
+    }
+    .experienceDate {
+        font-size: 10px;
+        width: max-content;
+    }
+    .experiencePosition {
+        font-size: 16px;
+    }
+    .experienceCompany {
+        font-size: 14px;
+    }
+    .companyLogoWrapper {
+        width: 100px;
+        height: 100px;
+    }
+}

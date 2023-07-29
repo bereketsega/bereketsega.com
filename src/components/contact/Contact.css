@@ -1,0 +1,42 @@
+.contactComponent {
+    margin-bottom: 50px;
+}
+.contactWrapper {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.contactLinkWrapper {
+    margin: 10px;
+}
+
+.contactLink {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.contactName {
+    font-weight: 500;
+    font-size: 14px;
+    font-family: var(--poppins);
+    margin: 4px;
+    padding: 4px 0px;
+    color: var(--bright-blue-text);
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: var(--poppins);
+    color: var(--bright-blue-text);
+}
+
+@media (max-width: 420px) {
+    .footer {
+        font-size: 12px;
+    }
+}
