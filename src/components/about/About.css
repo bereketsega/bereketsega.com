@@ -1,3 +1,8 @@
+.aboutWrapper {
+    display: flex;
+    flex-direction: row;
+}
+
 .profileImageWrapper {
     display: flex;
     flex-direction: row;
@@ -29,6 +34,10 @@
     color: #ffffff;
 }
 
+.aboutDescription {
+    margin-bottom: 20px;
+}
+
 .aboutLocation,
 .aboutDescription {
     color: var(--bright-blue-text);
@@ -36,7 +45,6 @@
 }
 
 .aboutContact {
-    margin-top: 10px;
     background-color: var(--dark-blue);
     padding: 6px;
     justify-content: center;
@@ -59,16 +67,18 @@
 @media (max-width: 480px) {
     .profileImageWrapper {
         margin-right: 10px;
-        margin-bottom: 10px;
+        margin-bottom: 130px;
         align-items: flex-start;
         margin-top: 10px;
+    }
+    .aboutWrapper {
+        position: relative;
     }
     .profileImage {
         width: 100px;
         height: 100px;
     }
     .aboutName {
-        margin-top: 0px;
         font-size: 1.2rem;
     }
     .aboutTitle {
@@ -79,8 +89,21 @@
     }
     .aboutDescription {
         font-size: 0.9rem;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        width: max-content;
+        max-width: 100%;
     }
     .aboutContact {
         font-size: 0.8rem;
+    }
+    .locationDescriptionWrapper {
+        margin-top: 100px;
+        position: absolute;
+        width: 90vw;
+
+        bottom: 0;
+        left: 0;
     }
 }
